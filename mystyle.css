@@ -1,0 +1,77 @@
+
+
+body {
+    color: rgb(0, 0, 0); 
+    background-color: #ffffff; 
+}
+
+h2 {
+    color: rgb(0, 0, 0); 
+    background-color: transparent; 
+    width: fit-content; 
+}
+
+a:link {
+    color: rgb(176, 176, 176); 
+}
+
+a:visited {
+    color: rgb(0, 0, 0); 
+}
+a:hover {
+    background-color: rgb(188, 188, 179); 
+}
+
+a:active {
+    color: rgb(255, 255, 255); 
+}
+
+
+body {
+    font-family: Georgia, serif;
+    font-size: 1.5em; 
+    font-weight: bold; 
+    font-style: italic; 
+}
+img {
+    float: none;   
+}
+
+/* new thing added on to the code*/
+
+.container {
+    border: 2px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#home-link {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#about-link {
+    border: solid rgb(0, 0, 0);
+}
+
+#contact-link {
+    border: 1 px solid rgb(0, 0, 0);
+}
+
+#container-link {
+    margin-top: 20px;
+}
+.container {
+    margin-top: 20px
+}
+a {
+    border: 1 px rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+img {
+    float: none;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;     /*flex box to container*/
+}
+
