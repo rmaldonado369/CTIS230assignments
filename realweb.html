@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <script src="script.js" defer></script>
     <head>
         <meta charset="utf-8">
         <title>Ricky DeWald</title>
         <link rel="stylesheet" href="myStyle.css"> 
+        
         <style>
         Body {
             background-color: #e1e1e1;
@@ -25,7 +27,7 @@
         img {
             display: block;
             margin: 0 auto;
-            float: none;   /* float is added for assignment 5 */
+            float: none;  
         }
         .image-container {
             display: flex;
@@ -67,10 +69,11 @@
 
 <body>
 
-    <h1>Ricky DeWald</h1>
-    <h1>Modeling Agency</h1>
+    <h1 id="secondtest">Ricky DeWald</h1>
+    <h1 id="buttontest">Modeling Agency</h1>
 
     <div class="buttons">
+        <button id="thebutton">A button</button>
         <a href="contact.html"><button>Photo Archive</button></a>
         <a href="printdivision.html"><button>Print Division</button></a>
         <a href="submissions.html"><button>Submissions</button></a>
@@ -90,8 +93,11 @@
 </div>
 
 <h2>Contact</h2>
-<p> Thank you for your interest in contacting [Your Modeling Agency Name]. We're here to assist you with any inquiries or requests you may have. Please feel free to reach out to us using any of the following methods: General Inquiries: If you have general questions about our agency, our services, or anything else, you can contact us via email or phone. Email: [Email] Phone: [Phone Number] Booking Inquiries: For booking inquiries, including information about hiring our models for your projects or events, please use the following contact information: Booking Email: [Booking Email Address] Booking Phone: [Booking Phone Number]
+<p id="firsttest"> Thank you for your interest in contacting Ricky DeWald Modeling Agency. We're here to assist you with any inquiries or requests you may have. Please feel free to reach out to us using any of the following methods: General Inquiries: If you have general questions about our agency, our services, or anything else, you can contact us via email or phone. Email: [<em>Email</em>] Phone: [<em>Phone Number</em>] Booking Inquiries: For booking inquiries, including information about hiring our models for your projects or events, please use the following contact information: Booking Email: [<em>Booking Email Address</em>] Booking Phone: [<em>Booking Phone Number</em>]
 </p>
+
+<input type="text" id="myinput">
+
 </body>
 
 
